@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" role="img" aria-label="Procedural plant" shape-rendering="crispEdges">
+  <!-- Original pixel-art icon. MIT license; see ../../LICENSE. -->
+  <path d="M4 0h24v4h4v24h-4v4H4v-4H0V4h4z" fill="#24253b"/>
+  <path d="M14 12h4v14h-4z" fill="#9cf5cd"/><path d="M4 7h8v4h4v7h-4v-3H8v-4H4z" fill="#83e9bf"/><path d="M20 4h8v8h-4v4h-6V8h2z" fill="#b6a0ff"/><path d="M7 25h18v3H7zM10 28h12v3H10z" fill="#f3cd85"/>
+</svg>

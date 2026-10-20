@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="456" viewBox="0 0 880 456" role="img" aria-labelledby="title description">
-  <title id="title">Mathis — portfolio en pixel art</title>
-  <desc id="description">Un terminal rétro présente Mathis et son portfolio : https://portfolio.mathis-db.com/. Créer, explorer, partager.</desc>
+  <title id="title">Mathis: pixel-art portfolio</title>
+  <desc id="description">A retro terminal introducing Mathis and his portfolio: https://portfolio.mathis-db.com/en/. Build, explore, share.</desc>
   <!--
   Pixel-art adaptation for Mathis, inspired by Typewriter Intro:
   https://github.com/beydemirfurkan/awesome-github-profile/tree/main/templates/02-animated/typewriter-intro
@@ -72,7 +72,7 @@
     <use href="#letter-m"/><use href="#letter-a" x="6"/><use href="#letter-t" x="12"/>
     <use href="#letter-h" x="18"/><use href="#letter-i" x="24"/><use href="#letter-s" x="30"/>
   </g>
-  <text x="60" y="220" fill="#ccd3e3" font-size="21">Créer, explorer, partager.</text>
+  <text x="60" y="220" fill="#ccd3e3" font-size="21">Build, explore, share.</text>
 
   <!-- Pixel monitor, drawn from rectangles and paths. -->
   <g transform="translate(716 122)" shape-rendering="crispEdges" aria-hidden="true">
@@ -89,6 +89,6 @@
   <path d="M771 304h24v24h-5v-15l-20 20-4-4 20-20h-15z" fill="#8acfff" shape-rendering="crispEdges" aria-hidden="true"/>
   <text x="60" y="381" font-size="20"><tspan fill="#83e9bf">$ </tspan></text>
   <rect class="cursor" x="88" y="363" width="12" height="21" fill="#9cf5cd" shape-rendering="crispEdges" aria-hidden="true"/>
-  <text x="804" y="380" text-anchor="end" fill="#a5afc4" font-size="14">CLIQUE POUR EXPLORER</text>
+  <text x="804" y="380" text-anchor="end" fill="#a5afc4" font-size="14">CLICK TO EXPLORE</text>
   <rect x="32" y="70" width="804" height="338" fill="url(#scanlines)" pointer-events="none"/>
 </svg>

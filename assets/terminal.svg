@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="456" viewBox="0 0 880 456" role="img" aria-labelledby="title description">
+  <title id="title">Mathis — portfolio en pixel art</title>
+  <desc id="description">Un terminal rétro présente Mathis et son portfolio : https://portfolio.mathis-db.com/. Créer, explorer, partager.</desc>
+  <!--
+  Pixel-art adaptation for Mathis, inspired by Typewriter Intro:
+  https://github.com/beydemirfurkan/awesome-github-profile/tree/main/templates/02-animated/typewriter-intro
+
+  MIT License
+
+  Copyright (c) 2026 Awesome GitHub Profile contributors
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+  -->
+  <defs>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 3.5H4" stroke="#ffffff" stroke-opacity=".025"/>
+    </pattern>
+    <!-- Original 5x7 pixel letterforms; no external font. -->
+    <g id="letter-m"><path d="M0 0h1v7H0zM4 0h1v7H4zM1 1h1v1H1zM2 2h1v1H2zM3 1h1v1H3z"/></g>
+    <g id="letter-a"><path d="M1 0h3v1H1zM0 1h1v6H0zM4 1h1v6H4zM1 3h3v1H1z"/></g>
+    <g id="letter-t"><path d="M0 0h5v1H0zM2 1h1v6H2z"/></g>
+    <g id="letter-h"><path d="M0 0h1v7H0zM4 0h1v7H4zM1 3h3v1H1z"/></g>
+    <g id="letter-i"><path d="M0 0h5v1H0zM2 1h1v5H2zM0 6h5v1H0z"/></g>
+    <g id="letter-s"><path d="M1 0h4v1H1zM0 1h1v2H0zM1 3h3v1H1zM4 4h1v2H4zM0 6h4v1H0z"/></g>
+  </defs>
+  <style>
+    text { font-family: "Cascadia Code", Consolas, "DejaVu Sans Mono", monospace; }
+    .cursor { animation: blink 1.2s step-end infinite; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .cursor { animation: none; } }
+  </style>
+
+  <!-- Stepped frame and offset shadow on the pixel grid. -->
+  <g shape-rendering="crispEdges">
+    <path d="M36 24H852V36H864V432H852V444H36V432H24V36H36Z" fill="#080b14"/>
+    <path d="M24 12H840V24H852V420H840V432H24V420H12V24H24Z" fill="#a797ef"/>
+    <path d="M28 20H836V28H844V416H836V424H28V416H20V28H28Z" fill="#24253b"/>
+    <path d="M28 68H836V416H28Z" fill="#101522"/>
+    <path d="M28 68H836" stroke="#5b517b" stroke-width="2"/>
+    <path d="M28 68H32V416H28Z" fill="#171f30"/>
+    <rect x="44" y="38" width="12" height="12" fill="#fa8c9b"/>
+    <rect x="64" y="38" width="12" height="12" fill="#f3cd85"/>
+    <rect x="84" y="38" width="12" height="12" fill="#8ae5bd"/>
+    <path d="M792 41h12v3h-12zM812 37h12v12h-12z" fill="#a797ef"/>
+    <rect x="815" y="40" width="6" height="6" fill="#24253b"/>
+  </g>
+  <text x="440" y="50" text-anchor="middle" font-size="15" letter-spacing="2" fill="#d6ceed">MATHIS / HOME</text>
+
+  <!-- The shell name is decorative, not a claimed GitHub username. -->
+  <text x="60" y="111" font-size="19"><tspan fill="#b6a0ff">mathis</tspan><tspan fill="#a5afc4">@</tspan><tspan fill="#83e9bf">home</tspan><tspan fill="#a5afc4">:~$</tspan><tspan dx="11" fill="#e6e9f2">whoami</tspan></text>
+  <g fill="#394e4b" transform="translate(64 139) scale(7)" shape-rendering="crispEdges" aria-hidden="true">
+    <use href="#letter-m"/><use href="#letter-a" x="6"/><use href="#letter-t" x="12"/>
+    <use href="#letter-h" x="18"/><use href="#letter-i" x="24"/><use href="#letter-s" x="30"/>
+  </g>
+  <g fill="#9cf5cd" transform="translate(60 135) scale(7)" shape-rendering="crispEdges" aria-hidden="true">
+    <use href="#letter-m"/><use href="#letter-a" x="6"/><use href="#letter-t" x="12"/>
+    <use href="#letter-h" x="18"/><use href="#letter-i" x="24"/><use href="#letter-s" x="30"/>
+  </g>
+  <text x="60" y="220" fill="#ccd3e3" font-size="21">Créer, explorer, partager.</text>
+
+  <!-- Pixel monitor, drawn from rectangles and paths. -->
+  <g transform="translate(716 122)" shape-rendering="crispEdges" aria-hidden="true">
+    <path d="M8 0h80v8h8v64h-8v8H8v-8H0V8h8z" fill="#a797ef"/>
+    <path d="M8 8h80v56H8z" fill="#172435"/>
+    <path d="M20 23h7v7h7v7h-7v7h-7v-7h7v-7h-7zM44 44h20v7H44z" fill="#9cf5cd"/>
+    <path d="M36 80h24v12H36zM24 92h48v8H24z" fill="#a797ef"/>
+    <rect x="76" y="69" width="5" height="5" fill="#9cf5cd"/>
+  </g>
+
+  <path d="M60 244H804" stroke="#2d374c" stroke-dasharray="4 6" shape-rendering="crispEdges"/>
+  <text x="60" y="285" font-size="20"><tspan fill="#83e9bf">$</tspan><tspan dx="12" fill="#e6e9f2">open portfolio</tspan></text>
+  <text x="60" y="324" fill="#8acfff" font-size="26">portfolio.mathis-db.com</text>
+  <path d="M771 304h24v24h-5v-15l-20 20-4-4 20-20h-15z" fill="#8acfff" shape-rendering="crispEdges" aria-hidden="true"/>
+  <text x="60" y="381" font-size="20"><tspan fill="#83e9bf">$ </tspan></text>
+  <rect class="cursor" x="88" y="363" width="12" height="21" fill="#9cf5cd" shape-rendering="crispEdges" aria-hidden="true"/>
+  <text x="804" y="380" text-anchor="end" fill="#a5afc4" font-size="14">CLIQUE POUR EXPLORER</text>
+  <rect x="32" y="70" width="804" height="338" fill="url(#scanlines)" pointer-events="none"/>
+</svg>

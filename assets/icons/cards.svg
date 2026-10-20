@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" role="img" aria-label="Trading cards" shape-rendering="crispEdges">
-  <!-- Original pixel-art icon. MIT license; see ../../LICENSE. -->
-  <path d="M4 0h24v4h4v24h-4v4H4v-4H0V4h4z" fill="#24253b"/>
-  <path d="M5 4h14v3H8v17H5z" fill="#a797ef"/><path d="M10 9h17v19H10z" fill="#f3cd85"/><path d="M13 12h11v10H13z" fill="#24253b"/><path d="M17 13h3v3h3v3h-3v3h-3v-3h-3v-3h3z" fill="#9cf5cd"/><path d="M13 24h11v2H13z" fill="#24253b"/>
-</svg>
